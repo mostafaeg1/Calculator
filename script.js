@@ -51,7 +51,6 @@ function AddPoint()
 
 ////////////// operator keys //////////////
 let operators=document.getElementsByClassName("op");
-console.log(operators);
 for(let i=0;i<operators.length;i++)
 {
     operators[i].addEventListener("click",(e) => {
@@ -63,7 +62,6 @@ function  appendOp(op)
 {
     if(secondoperand!=="")
     {
-        console.log(",");
        equalkey();
     }
     if(currentOp==="")
