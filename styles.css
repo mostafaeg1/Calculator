@@ -115,9 +115,9 @@ body
     display: flex;
   justify-content: center;
 }
-.footer{
-vertical-align: baseline;
-  position: absolute;
+footer{
+  position: static;
+  margin-top: 5%;
   bottom: 0;
   left: 0;
   display: flex;
@@ -127,6 +127,7 @@ vertical-align: baseline;
   width: 100%;
   padding: 10px;
   font-size: 20px;
+  bottom: 0;
 }
 
 img{
@@ -186,3 +187,4 @@ img:hover {
         font-size: 2.85rem;
     }
 }
+
