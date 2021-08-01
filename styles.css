@@ -14,7 +14,7 @@ body
     margin-top: 2%;
 }
 #user-input{
-    max-width: 384px;
+    max-width: 336px;
     word-wrap: break-word;
   word-break: break-all;
     color:yellow;
@@ -24,7 +24,7 @@ body
 }
 #result-screen
 {
-    max-width: 384px;
+    max-width: 336px;
     word-wrap: break-word;
     color: white;
     font-size: 3rem;
@@ -48,21 +48,21 @@ body
     background-color: #000000;
 }
 #buttons{
-    width: 400px;
+    width: 350px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
    grid-gap: 0.7rem;
 }
 
 .btn{
-    padding: 1.2rem 0;
+    padding: 0.8rem 0;
     border-radius: 1.2em;
     outline: none;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     border: 1px solid transparent;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     text-align: center;
     color:  white; 
     font-family: 'Roboto', sans-serif;
@@ -144,20 +144,22 @@ img:hover {
 @media only screen and (min-width: 380px) and (max-width: 500px){
     
         #buttons{
-            width: 90%;
+            width: 85%;
         }
         #zero{
             font-size: 1.5rem;    
         }
         .btn{
             width: 70px;
-            font-size: 1.5rem; 
+            font-size: 1.9rem; 
         }
         #user-input{
+            max-width: 301.03px;
             font-size: 2.15rem;
         }
         #result-screen
         {
+            max-width: 301.03px;
             font-size: 3.1rem;
         }
   }
@@ -165,20 +167,22 @@ img:hover {
   @media only screen and (max-width: 379px) {
     
     #buttons{
-        width: 90%;
+        width: 85%;
     }
     #zero{
         font-size: 1.4rem;    
     }
     .btn{
         width: 60px;
-        font-size: 1.4rem; 
+        font-size: 1.5rem; 
     }
     #user-input{
+        max-width: 262.63px;
         font-size: 1.9rem;
     }
     #result-screen
     {
+        max-width: 262.63px;
         font-size: 2.85rem;
     }
 }
